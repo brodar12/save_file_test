@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasamples xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:SchemaLocation="schema.xsd">
+<connectsettings>
+
+ <git_reposytory>
+     <repo_path>E:\</repo_path>
+     <repo_url>https://github.com/brodar12/save_file_test.git</repo_url>
+	 <repo_name>save_file_test</repo_name>
+	 <git_username>Mihai</git_username>
+	 <git_email>mihhamd@gmail.com</git_email>
+ </git_reposytory>
+
+
+	<VM_setings>
+		<vm_status>true</vm_status>
+		<vm_name>851-86Upgrade</vm_name>
+		<vm_username>Administrator</vm_username>
+		<vm_pass>Consumer2@15</vm_pass>
+		<send_files>
+			<local_path_file>C:\runff.bat</local_path_file>
+			<vm_path>E:\test_compy_file\folder_test1\</vm_path>
+		</send_files>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\Date.mp4</local_path_file>
+			<vm_path>E:\test_compy_file\folder_test2\</vm_path>
+		</send_files>
+	</VM_setings>
+
+<!--
+	<VM_setings>
+		<vm_status>true</vm_status>
+		<vm_name>ENR860JS02</vm_name>
+		<vm_username>Administrator</vm_username>
+		<vm_pass>Consumer2@15</vm_pass>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\accceseuc.avi</local_path_file>
+			<vm_path>E:\test_compy_file\folder_test1\folder_node2\</vm_path>
+		</send_files>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\6C4CD2E2-4726-437D-A438-751DB2081998.zip</local_path_file>
+			<vm_path>E:\test_compy_file\folder_test5\folder_node4\</vm_path>
+		</send_files>
+	</VM_setings>
+
+
+	<VM_setings>
+		<vm_status>true</vm_status>
+		<vm_name>ENR860JS03</vm_name>
+		<vm_username>Administrator</vm_username>
+		<vm_pass>Consumer2@15</vm_pass>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\redmark.jpg</local_path_file>
+			<vm_path>E:\test_compy_file\folder_test3\</vm_path>
+		</send_files>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\31945.88501092177-v2iI834_3-PUU.dat</local_path_file>
+			<vm_path>E:\test_compy_file\folder_test4\</vm_path>
+		</send_files>
+	</VM_setings>
+-->
+</connectsettings>
+</datasamples>

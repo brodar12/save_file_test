@@ -1,0 +1,43 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="datasamples">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="connectsettings">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="git_reposytory">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="repo_path"/>
+                    <xs:element type="xs:string" name="repo_url"/>
+                    <xs:element type="xs:string" name="repo_name"/>
+                    <xs:element type="xs:string" name="git_username"/>
+                    <xs:element type="xs:string" name="git_email"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="VM_setings" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="vm_status"/>
+                    <xs:element type="xs:string" name="vm_name"/>
+                    <xs:element type="xs:string" name="vm_username"/>
+                    <xs:element type="xs:string" name="vm_pass"/>
+                    <xs:element name="send_files" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="local_path_file"/>
+                          <xs:element type="xs:string" name="vm_path"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
