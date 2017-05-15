@@ -3,7 +3,7 @@
 <connectsettings>
 
  <git_reposytory>
-     <repo_path>D:\</repo_path>
+     <repo_path>E:\</repo_path>
      <repo_url>https://github.com/brodar12/save_copy_file.git</repo_url>
 	 <repo_ssh>git@github.com:brodar12/save_copy_file.git</repo_ssh>
 	 <repo_name>save_copy_file</repo_name>
@@ -14,36 +14,48 @@
 
 	<VM_setings>
 		<vm_status>true</vm_status>
-		<vm_name>192.168.0.104</vm_name>
-		<vm_username>Administrator</vm_username>
-		<vm_pass>Admin1234</vm_pass>
+		<vm_name>ENR88WINSQL12</vm_name>
+		<vm_username>ENR88WINSQL12\Administrator</vm_username>
+		<vm_pass>Consumer2@15</vm_pass>
 		<send_files>
-			<local_path_file>C:\Users\Admin\Downloads\test5874.txt</local_path_file>
-			<vm_path>D:\doi</vm_path>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\save_mem\doc4.txt</local_path_file>
+			<vm_path>E:\test_copy_file34\folder2\folder4</vm_path>
 		</send_files>
 		<send_files>
-			<local_path_file>C:\Users\Admin\Downloads\SkypeSetup.exe</local_path_file>
-			<vm_path>D:\unu\trei</vm_path>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\save_mem\doc2.txt</local_path_file>
+			<vm_path>E:\test_copy_file34\folder1</vm_path>
+		</send_files>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\save_mem\doc1.txt</local_path_file>
+			<vm_path>E:\test_copy_file34\folder3</vm_path>
+		</send_files>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\save_mem\doc3.txt</local_path_file>
+			<vm_path>E:\test_copy_file34\folder2\folder5</vm_path>
+		</send_files>
+	</VM_setings>
+
+
+	<VM_setings>
+		<vm_status>true</vm_status>
+		<vm_name>HIX88WINSQL12</vm_name>
+		<vm_username>HIX88WINSQL12\Administrator</vm_username>
+		<vm_pass>Consumer2@15</vm_pass>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\save_mem\doc5.txt</local_path_file>
+			<vm_path>C:\test_copy_file34\folder1</vm_path>
+		</send_files>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\save_mem\doc8.txt</local_path_file>
+			<vm_path>C:\test_copy_file34\folder2</vm_path>
+		</send_files>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\save_mem\doc6.txt</local_path_file>
+			<vm_path>C:\test_copy_file34\folder3</vm_path>
 		</send_files>
 	</VM_setings>
 
 <!--
-	<VM_setings>
-		<vm_status>true</vm_status>
-		<vm_name>ENR860JS02</vm_name>
-		<vm_username>Administrator</vm_username>
-		<vm_pass>Consumer2@15</vm_pass>
-		<send_files>
-			<local_path_file>C:\Users\c-mihapeti\Downloads\accceseuc.avi</local_path_file>
-			<vm_path>E:\test_compy_file\folder_test1\folder_node2\</vm_path>
-		</send_files>
-		<send_files>
-			<local_path_file>C:\Users\c-mihapeti\Downloads\6C4CD2E2-4726-437D-A438-751DB2081998.zip</local_path_file>
-			<vm_path>E:\test_compy_file\folder_test5\folder_node4\</vm_path>
-		</send_files>
-	</VM_setings>
-
-
 	<VM_setings>
 		<vm_status>true</vm_status>
 		<vm_name>ENR860JS03</vm_name>
