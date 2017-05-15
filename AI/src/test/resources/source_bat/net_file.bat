@@ -7,7 +7,7 @@ if "${mem}"=="true" (
     cd /D ${directory}
     mkdir save_temporar_repo_git
     cd save_temporar_repo_git
-    git clone ${git_repo_url}
+    git clone ${git_repo_ssh}
 
     ECHO Delete git files
     for /f %%f in ('dir /b ${directory}save_temporar_repo_git\${local_repository}\') do (

@@ -23,12 +23,12 @@ class Script_generator {
 
 
 
-  /*      parse.create_object_vm()
+        parse.create_object_vm()
 
         parse.add_file_repo_objects()
-*/
 
-  println parse.execute_cmd("dir")
+
+  //println parse.execute_cmd("dir")
 
 
 

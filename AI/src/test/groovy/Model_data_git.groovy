@@ -3,7 +3,17 @@
  */
 class Model_data_git {
 
-    String repository_path, repository_url, repository_name, repository_git_username, repository_git_email
+    String repository_path, repository_url, repository_ssh, repository_name, repository_git_username, repository_git_email
+
+
+
+    String getRepository_ssh() {
+        return repository_ssh
+    }
+
+    void setRepository_ssh(String repository_ssh) {
+        this.repository_ssh = repository_ssh
+    }
 
     String getRepository_git_username() {
         return repository_git_username

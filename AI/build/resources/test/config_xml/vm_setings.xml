@@ -3,9 +3,10 @@
 <connectsettings>
 
  <git_reposytory>
-     <repo_path>E:\</repo_path>
-     <repo_url>https://github.com/brodar12/save_file_test.git</repo_url>
-	 <repo_name>save_file_test</repo_name>
+     <repo_path>D:\</repo_path>
+     <repo_url>https://github.com/brodar12/save_copy_file.git</repo_url>
+	 <repo_ssh>git@github.com:brodar12/save_copy_file.git</repo_ssh>
+	 <repo_name>save_copy_file</repo_name>
 	 <git_username>Mihai</git_username>
 	 <git_email>mihhamd@gmail.com</git_email>
  </git_reposytory>
@@ -13,16 +14,16 @@
 
 	<VM_setings>
 		<vm_status>true</vm_status>
-		<vm_name>851-86Upgrade</vm_name>
+		<vm_name>192.168.0.104</vm_name>
 		<vm_username>Administrator</vm_username>
-		<vm_pass>Consumer2@15</vm_pass>
+		<vm_pass>Admin1234</vm_pass>
 		<send_files>
-			<local_path_file>C:\runff.bat</local_path_file>
-			<vm_path>E:\test_compy_file\folder_test1\</vm_path>
+			<local_path_file>C:\Users\Admin\Downloads\test5874.txt</local_path_file>
+			<vm_path>D:\doi</vm_path>
 		</send_files>
 		<send_files>
-			<local_path_file>C:\Users\c-mihapeti\Downloads\Date.mp4</local_path_file>
-			<vm_path>E:\test_compy_file\folder_test2\</vm_path>
+			<local_path_file>C:\Users\Admin\Downloads\SkypeSetup.exe</local_path_file>
+			<vm_path>D:\unu\trei</vm_path>
 		</send_files>
 	</VM_setings>
 
