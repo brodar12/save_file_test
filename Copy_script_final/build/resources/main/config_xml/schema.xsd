@@ -1,0 +1,48 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <!-- XML Schema Generated from XML Document on Sun May 14 2017 01:30:32 GMT+0300 (GTB Daylight Time) -->
+  <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+  <xs:element name="datasamples">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="connectsettings">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="git_reposytory">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="repo_path" type="xs:string"></xs:element>
+                    <xs:element name="repo_url" type="xs:string"></xs:element>
+                    <xs:element name="repo_ssh" type="xs:string"></xs:element>
+                    <xs:element name="repo_name" type="xs:string"></xs:element>
+                    <xs:element name="git_username" type="xs:string"></xs:element>
+                    <xs:element name="git_email" type="xs:string"></xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="VM_setings">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="vm_status" type="xs:string"></xs:element>
+                    <xs:element name="vm_name" type="xs:string"></xs:element>
+                    <xs:element name="vm_username" type="xs:string"></xs:element>
+                    <xs:element name="vm_pass" type="xs:string"></xs:element>
+                    <xs:element name="send_files" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="local_path_file" type="xs:string"></xs:element>
+                          <xs:element name="vm_path" type="xs:string"></xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="xmlns:xsi" type="xs:string"></xs:attribute>
+      <xs:attribute name="xsi:SchemaLocation" type="xs:string"></xs:attribute>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
