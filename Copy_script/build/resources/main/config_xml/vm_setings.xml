@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasamples xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:SchemaLocation="schema.xsd">
+<connectsettings>
+
+ <git_reposytory>
+     <repo_path>E:\</repo_path>
+     <repo_url>https://github.com/brodar12/save_copy_file.git</repo_url>
+	 <repo_ssh>git@github.com:brodar12/save_copy_file.git</repo_ssh>
+	 <repo_name>save_copy_file</repo_name>
+	 <git_username>Mihai</git_username>
+	 <git_email>mihhamd@gmail.com</git_email>
+ </git_reposytory>
+
+
+	<VM_setings>
+		<vm_status>true</vm_status>
+		<vm_name>ENR88WINSQL12</vm_name>
+		<vm_username>ENR88WINSQL12\Administrator</vm_username>
+		<vm_pass>Consumer2@15</vm_pass>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\save_mem\doc4.txt</local_path_file>
+			<vm_path>E:\test_copy_file34\folder2\folder4</vm_path>
+		</send_files>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\save_mem\doc2.txt</local_path_file>
+			<vm_path>E:\test_copy_file34\folder1</vm_path>
+		</send_files>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\save_mem\doc1.txt</local_path_file>
+			<vm_path>E:\test_copy_file34\folder3</vm_path>
+		</send_files>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\save_mem\doc3.txt</local_path_file>
+			<vm_path>E:\test_copy_file34\folder2\folder5</vm_path>
+		</send_files>
+	</VM_setings>
+
+
+	<VM_setings>
+		<vm_status>true</vm_status>
+		<vm_name>hix88Acunetix</vm_name>
+		<vm_username>hix88Acunetix\Administrator</vm_username>
+		<vm_pass>Consumer2@15</vm_pass>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\save_mem\doc5.txt</local_path_file>
+			<vm_path>C:\test_copy_file34\folder1</vm_path>
+		</send_files>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\save_mem\doc8.txt</local_path_file>
+			<vm_path>C:\test_copy_file34\folder2</vm_path>
+		</send_files>
+		<send_files>
+			<local_path_file>C:\Users\c-mihapeti\Downloads\save_mem\doc6.txt</local_path_file>
+			<vm_path>C:\test_copy_file34\folder3</vm_path>
+		</send_files>
+	</VM_setings>
+
+
+</connectsettings>
+</datasamples>
