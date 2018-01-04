@@ -2,7 +2,7 @@
 
 
 
-if "false"=="true" (
+if "true"=="true" (
     ECHO Create temporar repository
     cd /D D:\
     mkdir save_temporar_repo_git
@@ -24,7 +24,7 @@ if "false"=="true" (
     git push
 )
 
-if not "false"=="true" (
+if not "true"=="true" (
     ECHO Git add and push
     cd D:\save_temporar_repo_git\save_copy_file\
     git add .
