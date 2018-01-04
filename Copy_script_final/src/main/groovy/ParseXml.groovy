@@ -1,3 +1,5 @@
+import sun.rmi.runtime.Log
+
 /**
  * Created by c-mihapeti on 3/13/2017.
  */
@@ -108,8 +110,7 @@ class ParseXml {
 
         def file_temporar= new File("src/main/resources/source_bat/net_file_1.bat")
         file_temporar.write(file_save)
-
-        execute_cmd(file_temporar.getAbsolutePath().toString())
+        System.out.println(execute_cmd(file_temporar.getAbsolutePath().toString()));
         file_temporar.delete()
 
     }
