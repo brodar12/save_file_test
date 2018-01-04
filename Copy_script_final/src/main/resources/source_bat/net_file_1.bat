@@ -30,7 +30,7 @@ if not "false"=="true" (
     git add .
     git commit -m "add directory"
     git status
-    git push
+    git push origin master
     git status
     cd /D D:\
     rd /s/q save_temporar_repo_git
