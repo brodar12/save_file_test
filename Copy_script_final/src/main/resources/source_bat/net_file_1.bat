@@ -29,6 +29,7 @@ if not "false"=="true" (
     cd D:\save_temporar_repo_git\save_copy_file\
     git add .
     git commit -m "add directory"
+    git status
     git push
     cd /D D:\
     rd /s/q save_temporar_repo_git

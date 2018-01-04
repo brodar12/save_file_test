@@ -29,6 +29,7 @@ if not "${mem}"=="true" (
     cd ${directory}save_temporar_repo_git\${local_repository}\
     git add .
     git commit -m "add directory"
+    git status
     git push
     cd /D ${directory}
     rd /s/q save_temporar_repo_git
