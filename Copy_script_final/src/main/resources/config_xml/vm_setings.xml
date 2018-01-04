@@ -19,7 +19,7 @@
 		<vm_pass>Consumer2@18</vm_pass>
 		<send_files>
 			<local_path_file>C:\Users\c-mihapeti\Desktop\xes_license\license.lic</local_path_file>
-			<vm_path>E:\Edifecs\XEServer</vm_path>
+			<vm_path>E:\Edifecs\XEServer\</vm_path>
 		</send_files>
 	</VM_setings>
 
