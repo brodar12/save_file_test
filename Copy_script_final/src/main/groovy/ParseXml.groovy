@@ -80,7 +80,7 @@ class ParseXml {
                         println("In this path " + list_data_connect.get(i).local_path_file.get(j) + " dont exist file " + list_data_connect.get(i).file_name.get(j))
                     }
                 }
-
+                   sleep(5000)
                    create_git_local_reposytory_objects("false")
                 //  populate_temporar_distribute_file()
                 //  save_mem_tem_file=""
