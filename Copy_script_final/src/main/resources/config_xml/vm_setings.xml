@@ -14,20 +14,12 @@
 
 	<VM_setings>
 		<vm_status>true</vm_status>
-		<vm_name>192.168.0.104</vm_name>
+		<vm_name>hix89winsql01</vm_name>
 		<vm_username>Administrator</vm_username>
-		<vm_pass>Admin1234</vm_pass>
+		<vm_pass>Consumer2@18</vm_pass>
 		<send_files>
-			<local_path_file>C:\Users\Admin\Downloads\test5874.txt</local_path_file>
-			<vm_path>D:\doi</vm_path>
-		</send_files>
-		<send_files>
-			<local_path_file>C:\Users\Admin\Downloads\SkypeSetup.exe</local_path_file>
-			<vm_path>D:\unu\trei</vm_path>
-		</send_files>
-		<send_files>
-			<local_path_file>C:\Users\Admin\Downloads\SkypeSetup.exe</local_path_file>
-			<vm_path>D:\unu\trei</vm_path>
+			<local_path_file>C:\Users\c-mihapeti\Desktop\xes_license\license.lic</local_path_file>
+			<vm_path>E:\Edifecs\XEServer</vm_path>
 		</send_files>
 	</VM_setings>
 

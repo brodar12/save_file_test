@@ -5,7 +5,7 @@ class Run_script {
 
      static void main(String[] arg){
 
-         println("start scipt!!!!!succes.....")
+         println("start scipt!!!")
 
          ParseXml run= new ParseXml()
          run.create_object_vm()
